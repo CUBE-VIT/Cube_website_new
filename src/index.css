@@ -1,7 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: Futura;
+  src: url('./fonts/FuturaStdMedium.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Futura;
+  src: url('./fonts/FuturaStdExtraBold.otf');
+  font-weight:bold;
+}
+@font-face {
+  font-family: Futura;
+  src: url('./fonts/FuturaStdLight.otf');
+  font-weight:lighter;
+}
+@import "react-alice-carousel/lib/alice-carousel.css";
 *{
   margin: 0;
   padding: 0;
-  font-family:'Poppins', sans-serif;
+  font-family:Futura;
+  font-weight: normal;
 }
 

@@ -1,0 +1,38 @@
+.domain{
+    min-height: 100vh;
+    padding: 30px 0px 30px 130px;
+}
+.domain h1{
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 80px;
+    color:var(--text);
+    
+}
+.domain .card{
+    height: 300px;
+    color:var(--text);
+    background-color: #3C3B4D;
+    width: 90%;
+    height: 400px;
+    padding: 30px ;
+}
+#root > div > div.domain > div > div> div > ul > li{
+   border: 30px solid var(--back);
+}
+.domain .card h1{
+    font-size: 36px;
+}
+.domain .card p{
+    font-size: 28px;
+line-height: 34px;
+margin-top: 20px;
+}
+.alice-carousel__prev-btn-item, .alice-carousel__next-btn-item{
+    font-size: 30px;
+    color: white;
+}
+.alice-carousel__dots{
+    margin-top: 0px;
+}

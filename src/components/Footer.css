@@ -1,0 +1,96 @@
+.footer{
+    margin-top: 40px;
+}
+.footer .footer__div{
+    height: 100%;
+
+    padding: 20px 130px;
+}
+.footer h1{
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 80px;
+    color:var(--text);
+    margin-left: 130px;
+}
+.footer .footer__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.footer .footer__div .contact,.footer .follow,.footer .pages{
+    color: #B5B5B5;
+
+}
+.footer .footer__div .contact h2,.footer .follow h2,.footer .pages h2{
+    font-size: 42px;
+    
+}
+
+.footer .footer__div .contact button{
+    height: 66px;
+    width: 181px;
+    background-color: var(--primary);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 28px;
+    font-weight: normal;
+    margin: 20px 0px;
+    
+}.footer .footer__div .contact p{
+    font-size: 24px;
+    color:var(--text)
+}
+.follow .social{
+    display: flex;
+}
+.follow .social .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.follow .social .icons .each{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top:15px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    color: var(--text);
+}
+.follow .social .icons .each p{
+    margin-left: 10px;
+}
+.footer .pages .links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer .pages .links .linkicons{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top:15px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.footer .pages .links .linkicons p{
+    margin-right: 20px;
+    color: var(--text);
+}
+.footer__image{
+    height: 30vh;
+    background-image: url('../images/Mohaka.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
