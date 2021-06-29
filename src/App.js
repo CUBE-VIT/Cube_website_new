@@ -7,11 +7,9 @@ function App() {
     <Router>
     <div className="App">
       <Switch>
-
         <Route exact path="/">
 
         </Route>
-
       </Switch>
     </div>
 </Router>

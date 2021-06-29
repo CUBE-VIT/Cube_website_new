@@ -1,9 +1,9 @@
 :root{
-  --primary:#6C63FF ;
-  --secondary: #4641FF;
-  --dark:#000;
-  --back:#333C44;
-  --third:#06D19C;
+  --primary: #3284E2;
+  --text:#FAFAFA;
+  --backlight:#3C3B4D;
+  --back:#25242E;
+
 }
 .App{
   margin: 0;
