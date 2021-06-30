@@ -15,6 +15,9 @@
     align-items: center;
     padding: 30px 130px;
 }
+.home .home__nav .toggle2{
+    display: none;
+}
 .home__left{
     width: 43%;
     padding: 80px 0px 0px 130px
@@ -61,4 +64,40 @@
     font-size: 28px;
     font-weight: normal;
     margin-right: 30px;
+}
+
+@media only screen and (max-width: 600px){
+    .home{
+            background-image: none;
+    }
+    .home__left{
+        width: 90%;
+        padding:10px  20px;
+    }
+    .home .home__nav{
+        padding:20px;
+    }
+    .home .home__left h1{
+        font-size: 42px;
+    }
+    .home .home__nav img{
+        height: 32px;
+        width: 90px;
+    }
+    .home .home__nav .toggle2{
+        display: block;
+        height: 34px;
+        width: 34px;
+    }
+    .home .home__nav .toggle{
+        height: 34px;
+        width: 34px;
+        display: none;
+    }
+    .home .home__left p{
+        padding: 0;
+    }
+    .home .home__left .home__buttons .home__but1,.home .home__left .home__buttons .home__but2{
+        height: 56px;
+    }
 }

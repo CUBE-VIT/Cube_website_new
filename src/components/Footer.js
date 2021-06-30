@@ -14,9 +14,7 @@ function Footer() {
                         <h2>Contact</h2>
                         <button>Contact Us</button>
                         <p style={{fontSize:"32px"}}>cubevit@gmail.com</p>
-                        <p style={{margin:"50px 0px 20px 0px"}} >@2021 C.U.B.E VIT</p>
-                        <p>Made with 💖 by <span style={{color:"#FEE272"}}>Samarth Nehe</span></p>
-                        <p>Designed with 🍵 by <span style={{color:"#2BCF9B"}}>Hayat Tamboli</span></p>
+                       
                     </div>
                     <div className="follow">
                         <h2>Follow us on</h2>
@@ -50,6 +48,12 @@ function Footer() {
                         </div>
                     </div>
             </div>
+            <div className="copyright">
+                <p style={{margin:"10px 0px 20px 0px",fontSize:"28px"}} >@2021 C.U.B.E VIT</p>
+                <p>Made with 💖 by <span style={{color:"#FEE272"}}>Samarth Nehe</span></p>
+                <p>Designed with 🍵 by <span style={{color:"#2BCF9B"}}>Hayat Tamboli</span></p>
+            </div>
+
             <div className="footer__image">
 
             </div>

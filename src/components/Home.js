@@ -2,13 +2,16 @@ import React from 'react';
 import './Home.css';
 import Logo from  '../images/logo.png';
 import Toggle from '../images/toggle.png'
+import Toggle2 from '../images/toggle2.png'
 
 function Home() {
     return (
         <div className="home">
             <div className="home__nav">
-                <img src={Logo} width="180px" height="64.66px"/>
-                <img src={Toggle} width="68px" height="68px"/>
+            <img src={Logo} width="160px" height="60px"/>
+                <img className="toggle" src={Toggle} width="65px" height="65px"/>
+                <img className="toggle2" src={Toggle2} width="65px" height="65px"/>
+                
             </div>
                 <div className="home__left">
                     <h1>We are Cubing Union of Brainy Enthusiasts</h1>

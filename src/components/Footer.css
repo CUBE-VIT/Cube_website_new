@@ -72,6 +72,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin: 20px 0px;
 }
 .footer .pages .links .linkicons{
     display: flex;
@@ -93,4 +94,44 @@
     background-size: cover;
     background-position: center;
     
+}
+.copyright{
+    color:var(--text);
+    margin: 20px 130px;
+}
+.copyright p{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 600px){
+.footer h1{
+    font-size: 42px;
+    margin-left: 20px;
+}
+.footer .footer__div{
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.footer .footer__div .contact{
+    margin-bottom: 40px;
+}
+.follow .social .icons .each p,.footer .pages .links .linkicons p{
+    font-size: 28px;
+}
+.follow .social .icons .each{
+    margin-right: 5px;
+}.copyright{
+    color:var(--text);
+    margin: 20px 20px;
+}
+.copyright p{
+    font-size: 24px;
+}
+.footer__image{
+    background-size: cover;
+    background-position: left;
+}
+.footer .footer__div .contact button{
+    height: 56px;
+}
 }

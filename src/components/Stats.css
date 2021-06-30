@@ -1,0 +1,45 @@
+.stats{
+
+    padding: 200px 130px;
+    color: var(--text);
+}
+.stats .details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stats .details .stats__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.stats .details .stats__cards h1{
+    font-size: 90px;
+    font-weight: bolder;
+    letter-spacing: -10px;
+}
+.stats .details .stats__cards p{
+    font-size: 36px;
+    font-weight: normal;
+
+}
+
+@media only screen and (max-width: 600px){
+    .details{
+        flex-direction: column;
+    }
+    .stats{
+
+        padding: 100px 20px;
+        color: var(--text);
+    }
+    .stats .details .stats__cards{
+        margin: 15px 0px;
+    }
+    .stats .details .stats__cards h1{
+        font-size: 60px;
+        font-weight: bolder;
+        letter-spacing: -10px;
+    }
+}

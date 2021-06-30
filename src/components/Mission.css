@@ -1,0 +1,48 @@
+.videos .mission{
+    min-height: 100vh;
+    color: var(--text);
+    padding: 0px 130px;
+
+}
+.videos  .mission h1{
+    font-size: 64px;
+    font-weight: bolder;
+}
+.videos  .mission p{
+    font-size: 24px;
+}
+.videos .mission .video{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+.videos .vision{
+    min-height: 100vh;
+    color: var(--text);
+    padding: 50px 130px;
+
+}
+.videos  .vision h1{
+    font-size: 64px;
+    font-weight: bolder;
+}
+.videos  .vision p{
+    font-size: 24px;
+}
+.videos .vision .video{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+
+@media only screen and (max-width: 600px){
+    .videos .vision,.videos .mission{
+        padding: 0px 20px;
+    }
+    .videos  .vision h1,.videos  .mission h1{
+        font-size: 42px;
+    }
+    .videos  .vision .video video,  .videos  .mission .video video{
+        width: 100%;
+    }
+}

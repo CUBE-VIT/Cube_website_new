@@ -1,0 +1,90 @@
+.aboutus{
+    min-height: 100vh;
+    color:var(--text);
+
+    
+}
+.aboutus .aboutus__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 130px;
+}
+.aboutus__left{
+
+    padding: 30px 130px 0px 130px
+}
+.aboutus .aboutus__left h1{
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    line-height: 80px;
+
+    
+}
+.aboutus .aboutus__left p{
+    display: none;
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: Futura;
+    letter-spacing: normal;
+    margin-top: 20px;
+    padding-right: 30%;
+}
+.aboutus .aboutus__left .aboutus__pics{
+    display: flex;
+    align-items: flex-start;
+}
+.aboutus .aboutus__left .aboutus__pics .pic1 , .aboutus .aboutus__left .aboutus__pics .pic2{
+    margin: 10px;
+}
+.aboutus .aboutus__left .aboutus__pics .pic2{
+    margin-top: 80px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .aboutus .aboutus__nav{
+        padding: 10px 20px;
+    }
+    .aboutus .aboutus__nav img{
+        height: 32px;
+        width: 90px;
+    }
+    .aboutus .aboutus__nav .toggle{
+        height: 34px;
+        width: 34px;
+
+    }
+    .aboutus .aboutus__left{
+        padding: 10px 20px;
+    }
+    .aboutus .aboutus__left h1{
+        font-size: 40px;
+        letter-spacing: -2px;
+
+    }
+    .aboutus .aboutus__left .aboutus__pics{
+        flex-direction: column;
+    }
+    .aboutus .aboutus__left .aboutus__pics img{
+        width: 100%;
+        height: 246px;
+ 
+    }
+    .aboutus .aboutus__left .aboutus__pics .pic1 , .aboutus .aboutus__left .aboutus__pics .pic2{
+        margin: 10px 0px;
+    }
+    .aboutus .aboutus__left p{
+        display: block;
+        font-size: 22px;
+        font-weight: lighter;
+        font-family: Futura;
+        letter-spacing: normal;
+        margin: 15px 0px;
+        padding-right: 0;
+ 
+    }
+
+
+}
