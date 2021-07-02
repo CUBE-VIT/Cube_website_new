@@ -81,7 +81,7 @@ function Domain() {
         >
             { items.map((item, i) => <div key={i} className="card">
                 <div style={{display:"flex",justify:"center",alignItems:"center"}}>
-                    <img style={{marginRight:"20px"}} src={item.image} width="68px" height="68px"/>
+                    <img style={{marginRight:"20px"}} src={item.image} width="68px" height="68px" alt="pic"/>
                 <h1>{item.heading}</h1>
                 </div>
       

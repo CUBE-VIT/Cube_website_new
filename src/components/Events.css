@@ -1,0 +1,112 @@
+h1{
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 80px;
+    color:var(--text);
+    /* margin-left: 130px; */
+}
+h2{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 80px;
+    color:var(--text);
+    /* margin-left: 50px; */
+    text-align: center;
+}
+
+.insta{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 80px;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+@media only screen and (min-width: 430px) and (max-width: 550px){
+    h1{
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 80px;
+        color:var(--text);
+        /* margin-left: 130px; */
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 80px;
+        color:var(--text);
+        /* margin-left: 50px; */
+        text-align: center;
+    }
+    .insta{
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 80px;
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;  
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 430px){
+    h1{
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 80px;
+        color:var(--text);
+        /* margin-left: 130px; */
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 80px;
+        color:var(--text);
+        /* margin-left: 50px; */
+        text-align: center;
+    }
+    .insta{
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 80px;
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;  
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 350px){
+    h1{
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 80px;
+        color:var(--text);
+        /* margin-left: 130px; */
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 80px;
+        color:var(--text);
+        /* margin-left: 50px; */
+        text-align: center;
+    }
+    .insta{
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 80px;
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;  
+    }
+}

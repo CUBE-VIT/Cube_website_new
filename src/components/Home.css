@@ -53,6 +53,7 @@
     margin-right: 30px;
     border: 4px solid #3284E2;
     background-color: transparent;
+    cursor: pointer;
 }
 .home .home__left .home__buttons .home__but1{
     height: 66px;
@@ -64,6 +65,7 @@
     font-size: 28px;
     font-weight: normal;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 600px){

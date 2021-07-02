@@ -9,6 +9,8 @@ import Aboutus from './components/Aboutus';
 import Stats from './components/Stats';
 import Mission from './components/Mission';
 import Contact from './components/contact'
+import Events from "./components/Events"
+import Teams from "./components/Teams"
 
 function App() {
   return (
@@ -31,6 +33,18 @@ function App() {
 
         <Route exact path="/contact">
             <Contact/>
+       
+            <Footer/>
+        </Route>
+
+        <Route exact path="/events">
+            <Events/>
+       
+            {/* <Footer/> */}
+        </Route>
+
+        <Route exact path="/teams">
+            <Teams/>
        
             <Footer/>
         </Route>
