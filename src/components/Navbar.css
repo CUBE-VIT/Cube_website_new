@@ -1,6 +1,10 @@
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 130px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 116px;
 }
+/* .toggle2 {
+  position: fixed;
+  left: 116px;
+} */

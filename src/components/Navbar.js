@@ -10,7 +10,7 @@ function Navbar() {
                     <div><img src={Logo} width="160px" height="60px" alt="cube_logo"/></div>
             </Link>
                 {/* <img className="toggle" src={Toggle} width="65px" height="65px"/> */}
-                <img className="toggle2" src={Toggle2} width="65px" height="65px" alt="tp"/>
+                <img className="toggle2" src={Toggle2} width="64px" height="64px" alt="tp"/>
                 
         </div>
     )

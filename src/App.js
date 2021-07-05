@@ -40,7 +40,7 @@ function App() {
         <Route exact path="/events">
             <Events/>
        
-            {/* <Footer/> */}
+            <Footer/>
         </Route>
 
         <Route exact path="/teams">

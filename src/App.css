@@ -1,18 +1,16 @@
-:root{
-  --primary: #3284E2;
-  --text:#FAFAFA;
-  --backlight:#3C3B4D;
-  --back:#25242E;
-
+:root {
+  --primary: #3284e2;
+  --text: #fafafa;
+  --backlight: #3c3b4d;
+  --back: #25242e;
 }
-.App{
+.App {
   margin: 0;
   padding: 0;
-
-
 }
-body{
+body {
   background-color: var(--back);
   overflow: auto;
-
 }
+
+

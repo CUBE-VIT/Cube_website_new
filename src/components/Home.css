@@ -12,14 +12,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 130px;
+  padding: 30px 116px;
 }
 .home .home__nav .toggle2 {
   display: none;
 }
 .home__left {
   width: 43%;
-  padding: 80px 0px 0px 130px;
+  padding: 80px 0px 0px 116px;
 }
 .home .home__left h1 {
   font-size: 64px;
