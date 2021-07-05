@@ -1,23 +1,22 @@
 @font-face {
   font-family: Futura;
-  src: url('./fonts/FuturaStdMedium.otf');
+  src: url("./fonts/FuturaStdMedium.otf");
   font-weight: normal;
 }
 @font-face {
   font-family: Futura;
-  src: url('./fonts/FuturaStdExtraBold.otf');
-  font-weight:bold;
+  src: url("./fonts/FuturaStdBold.otf");
+  font-weight: bold;
 }
 @font-face {
   font-family: Futura;
-  src: url('./fonts/FuturaStdLight.otf');
-  font-weight:lighter;
+  src: url("./fonts/FuturaStdBook.otf");
+  font-weight: lighter;
 }
 @import "react-alice-carousel/lib/alice-carousel.css";
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family:Futura;
+  font-family: Futura;
   font-weight: normal;
 }
-
