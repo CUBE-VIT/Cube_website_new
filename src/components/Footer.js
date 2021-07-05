@@ -4,6 +4,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import {Link} from 'react-router-dom';
 
 function Footer() {
     return (
@@ -36,22 +37,22 @@ function Footer() {
                     <h2>Pages</h2>
                         <div className="links">
                             <div className="linkicons">
-                                <p>Home</p>
-                                <p>Events</p>
+                            <Link to="./" style={{textDecoration: "none"}}><p className="footer-link">Home</p></Link>
+                            <Link to="./events" style={{textDecoration: "none"}}><p className="footer-link">Events</p></Link>
                                
                             </div>
                             <div className="linkicons">
-                              <p>About</p>
-                                <p>Team</p>
+                            <Link to="./about" style={{textDecoration: "none"}}><p className="footer-link">About</p></Link>
+                            <Link to="./teams" style={{textDecoration: "none"}}><p className="footer-link">Team</p></Link>
 
                             </div>
                         </div>
                     </div>
             </div>
             <div className="copyright">
-                <p style={{margin:"10px 0px 20px 0px",fontSize:"28px"}} >@2021 C.U.B.E VIT</p>
-                <p>Made with 💖 by <span style={{color:"#FEE272"}}>Samarth Nehe</span></p>
-                <p>Designed with 🍵 by <span style={{color:"#2BCF9B"}}>Hayat Tamboli</span></p>
+                <p style={{margin:"10px 0px 20px 0px",fontSize:"14px"}} >@2021 C.U.B.E VIT</p>
+                <p>Made with 💖 by <a href="#" style={{textDecoration: "none"}} ><span style={{color:"#FEE272"}}>Samarth Nehe</span></a></p>
+                <p>Designed with ☕ by <a href="https://www.linkedin.com/in/hayat-tamboli/" style={{textDecoration: "none"}} ><span style={{color:"#2BCF9B"}}>Hayat Tamboli</span></a></p>
             </div>
 
             <div className="footer__image">
