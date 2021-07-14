@@ -1,7 +1,7 @@
 .videos .mission{
     min-height: 100vh;
     color: var(--text);
-    padding: 0px 130px;
+    padding: 0px 116px;
 
 }
 .videos  .mission h1{
@@ -19,7 +19,7 @@
 .videos .vision{
     min-height: 100vh;
     color: var(--text);
-    padding: 50px 130px;
+    padding: 50px 116px;
 
 }
 .videos  .vision h1{

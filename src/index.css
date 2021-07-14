@@ -5,12 +5,12 @@
 }
 @font-face {
   font-family: Futura;
-  src: url('./fonts/FuturaStdExtraBold.otf');
+  src: url('./fonts/FuturaStdBold.otf');
   font-weight:bold;
 }
 @font-face {
   font-family: Futura;
-  src: url('./fonts/FuturaStdLight.otf');
+  src: url('./fonts/FuturaStdBook.otf');
   font-weight:lighter;
 }
 @import "react-alice-carousel/lib/alice-carousel.css";

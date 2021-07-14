@@ -1,6 +1,6 @@
 .domain{
     min-height: 100vh;
-    padding: 30px 0px 30px 130px;
+    padding: 30px 116px;
 }
 .domain h1{
     font-size: 64px;
@@ -10,7 +10,10 @@
     color:var(--text);
     
 }
-.domain .card{
+.domain__mobile{
+    display: none;
+}
+.domain .domain__lappy .card{
     height: 300px;
     color:var(--text);
     background-color: #3C3B4D;
@@ -18,17 +21,17 @@
     height: 400px;
     padding: 30px ;
 }
-#root > div > div.domain > div > div> div > ul > li{
+#root > div > div.domain .domain__lappy > div > div> div > ul > li{
     border-width: 20px 30px 30px 30px;
    border-color: var(--back);
    border-style: solid;
 }
-.domain .card h1{
+.domain .domain__lappy .card h1{
     font-size: 36px;
 }
-.domain .card p{
-    font-size: 28px;
-line-height: 34px;
+.domain .domain__lappy .card p{
+    font-size: 24px;
+line-height: 28px;
 margin-top: 20px;
 }
 .alice-carousel__prev-btn-item, .alice-carousel__next-btn-item{
@@ -40,7 +43,7 @@ margin-top: 20px;
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     .domain{
         padding: 20px 0px 20px 0px
     }
@@ -48,23 +51,78 @@ margin-top: 20px;
         font-size: 42px;
         padding: 0px 20px;
     }
-    .domain .card{
+    .domain .domain__lappy .card{
         height: 380px;
         width: 90%;
         padding: 20px;
     }
-    .domain .card p{
+    .domain .domain__lappy .card p{
         font-size: 20px;
         margin-top: 0;
     }
-    .domain .card h1{
+    #root > div > div.domain .domain__lappy > div > div> div > ul > li{
+        border-width: 10px 20px 20px 20px;
+       border-color: var(--back);
+       border-style: solid;
+    }
+    .domain .domain__lappy .card h1{
         font-size: 28px;
         padding: 0;
     }
-    #root > div > div.domain > div > div> div > ul > li> div > div > img{
+    #root > div > div.domain .domain__lappy > div > div> div > ul > li> div > div > img{
         height: 34px;
         width: 34px;
     }
+    .domain__mobile{
+        display: none;
+    }
 
     
+}
+
+@media only screen and (min-width:700px) and (max-width: 1215px) {
+    .domain__lappy{
+        display: none;
+    }
+    .domain__mobile{
+        display: block;
+    }
+    .domain{
+        padding: 20px 0px 20px 60px;
+    }
+    .domain .domain__mobile .card{
+        height: 380px;
+        width: 90%;
+        padding: 20px;
+        color: var(--text);
+    }
+    .domain .domain__mobile .card p{
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .domain .domain__mobile .card h1{
+        font-size: 28px;
+        padding: 0;
+    }
+    #root > div > div.domain .domain__mobile > div > div> div > ul > li> div > div > img{
+        height: 34px;
+        width: 34px;
+    }
+    .alice-carousel__prev-btn-item, .alice-carousel__next-btn-item{
+        font-size: 30px;
+        color: white;
+    }
+    .domain .domain__mobile .card{
+        height: 300px;
+        color:var(--text);
+        background-color: #3C3B4D;
+        width: 90%;
+        height: 350px;
+        padding: 30px ;
+    }
+    #root > div > div.domain .domain__mobile > div > div> div > ul > li{
+        border-width: 10px 20px 20px 20px;
+       border-color: var(--back);
+       border-style: solid;
+    }
 }

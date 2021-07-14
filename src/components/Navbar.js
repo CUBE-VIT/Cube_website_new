@@ -1,16 +1,23 @@
 import React from 'react'
 import Logo from  '../images/logo.png';
-import Toggle2 from '../images/toggle2.png'
+
 import './Navbar.css'
 import {Link} from 'react-router-dom';
-function Navbar() {
+function Navbar({image}) {
+
+    const handleClick=()=>{
+        document.getElementById('slider__main').style.transition="0.5s all ease-in-out";
+        document.getElementById("slider__main").style.right="0";
+        
+    }
+    
     return (
-        <div className="nav">
+        <div className="nav" >
             <Link to="./">
-                    <div><img src={Logo} width="160px" height="60px" alt="cube_logo"/></div>
+                    <div ><img src={Logo} width="160px" height="60px" alt="cube_logo"/></div>
             </Link>
                 {/* <img className="toggle" src={Toggle} width="65px" height="65px"/> */}
-                <img className="toggle2" src={Toggle2} width="65px" height="65px" alt="tp"/>
+                <img id="toggle2" src={image} width="65px" height="65px" alt="tp" onClick={handleClick}/>
                 
         </div>
     )

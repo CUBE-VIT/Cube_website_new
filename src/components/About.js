@@ -7,7 +7,7 @@ function About() {
     console.log(       window.screen.availWidth);
  
     return (
-        <div className="about">
+        <div className="about" data-aos="zoom-in"  data-aos-duration="1000">
             <h1>Who are we</h1>
             <p>Established in 2019, we are C.U.B.E, VIT's first and the only cubing club. Our aim is to support fellow speecubers by providing them a paltform to showcase their underrated skills in the feild of speedcubing. A club with over 75 members including speedcubers, designers and managers, we work on organising events that benefits our college and its students!</p>
             <div className="video">

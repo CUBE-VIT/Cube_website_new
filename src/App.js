@@ -34,13 +34,13 @@ function App() {
         <Route exact path="/contact">
             <Contact/>
        
-            <Footer/>
+         
         </Route>
 
         <Route exact path="/events">
             <Events/>
        
-            {/* <Footer/> */}
+            <Footer/>
         </Route>
 
         <Route exact path="/teams">

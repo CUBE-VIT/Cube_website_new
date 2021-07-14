@@ -15,7 +15,9 @@ h2{
     /* margin-left: 50px; */
     text-align: center;
 }
-
+#root > div > div.lappy > h2{
+    margin-top: 30px;
+}
 .insta{
     font-size: 40px;
     font-weight: 800;

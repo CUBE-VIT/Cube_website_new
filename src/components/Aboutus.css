@@ -8,11 +8,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 130px;
+    padding: 30px 116px;
 }
 .aboutus__left{
 
-    padding: 30px 130px 0px 130px
+    padding: 30px 116px 0px 116px
 }
 .aboutus .aboutus__left h1{
     font-size: 56px;

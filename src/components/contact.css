@@ -1,7 +1,7 @@
 .contactus{
     min-height: 100vh;
     color:var(--text);
-    padding: 20px 130px;
+    padding: 20px 116px;
 
 
 }
@@ -24,34 +24,42 @@
     padding: 20px 100px;
 
 }
-.contactus__form{
+.contactus__form form{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 50%;
+    font-size: 24px;
     margin: 30px auto;
 }
-.contactus__form input, .contactus__form textarea{
+.contactus__form input, .contactus__form  form textarea{
     width: 100%;
     margin: 20px;
     background-color: #3C3B4D;
     outline: none;
     border: none;
     padding: 0px 10px;
-}
-.contactus__form input{
-    height: 56px;
-  
-}
-.contactus__form input::placeholder, .contactus__form textarea{
-    color: var(--text);
+    color: white;
     font-size: 24px;
 }
-.contactus__form textarea{
-    padding: 10px ;
+.contactus__form form input{
+    height: 56px;
+    color: white;
+    font-size: 24px;
+  
 }
-.contactus__form .buts{
+.contactus__form input::placeholder, .contactus__form form  textarea::placeholder{
+ 
+    font-size: 24px;
+    color: #B5B5B5;
+}
+.contactus__form form textarea{
+    padding: 10px ;
+    color: white;
+    font-size: 24px;
+}
+.contactus__form form .buts{
     height: 56px;
     width: 127px;
     background-color: var(--primary);
@@ -76,12 +84,12 @@
         padding: 10px 0px;
     
     }
-    .contactus__form{
-        
+    .contactus__form form{
+        font-size: 24px;
         width: 100%;
         margin: 10px auto;
     }
-    .contactus__form .buts{
+    .contactus__form form .buts{
         height: 56px;
         width: 127px;
         background-color: var(--primary);

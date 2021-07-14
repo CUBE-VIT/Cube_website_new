@@ -2,5 +2,54 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 130px;
+    padding: 30px 116px;
+}
+.nav #toggle2{
+    position: fixed;
+    top: 30px;
+    right: 116px;
+    z-index: 100;
+    cursor: pointer;
+}
+.nav #toggle{
+    cursor: pointer;
+    
+}
+@media only screen and (max-width: 600px){
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .nav #toggle2{
+        height: 34px;
+        width: 34px;
+      
+        position: fixed;
+        top: 10px;
+        right:20px;
+        z-index: 100;
+        cursor: pointer;
+    }
+    .nav #toggle{
+        height: 34px;
+        width: 34px;
+        cursor: pointer;
+    }
+    #root > div > div.nav > a > div > img{
+        height: 35px;
+        width: 90px;
+    }
+    #root > div > div > div.nav > a > div > img{
+        height: 35px;
+        width: 90px;
+    }
+ 
+}
+
+@media only screen and (min-width:600px) and (max-width: 1215px){
+    .nav{
+        padding: 20px 60px;
+    }
 }

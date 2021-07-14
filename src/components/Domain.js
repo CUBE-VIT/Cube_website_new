@@ -10,7 +10,7 @@ import edit from '../images/editorial.png';
 
 function Domain() {
 
-    const responsive = {
+    const responsive= {
         0: {
           items: 1
         },
@@ -20,6 +20,14 @@ function Domain() {
         1024: {
           items: 3
         }
+      };
+      const responsive_mobile = {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
       };
 
       const [currIndex,setCurrIndex]=useState(0);
@@ -51,7 +59,7 @@ function Domain() {
           {
               key:5,
               heading:"Editorial",
-              desc:"From making websites to making small logos, we have desginers who can work on any defined scales! One of the finest designing teams who would not fail to impress you!"
+              desc:"From blogging to project documentation, from technical and web content writing to event descriptions, our editorial team does it all to perfection!"
               ,image:edit
             }
 
@@ -70,16 +78,16 @@ function Domain() {
     //     <li key={i} onClick={() => slideTo(i)}>Thumb {item}</li>)}
     //   </ul>;
 
-      const renderGallery=()=>{
+      const renderGallery=(res)=>{
         return(
             <AliceCarousel
             dotsDisabled={true}
             buttonsDisabled={true}
             slideToIndex={currIndex}
             onSlideChanged={onSlideChanged}
-            responsive={responsive}
+            responsive={res}
         >
-            { items.map((item, i) => <div key={i} className="card">
+            { items.map((item, i) => <div key={i} className="card" data-aos="fade-right" data-aos-duration={(i+1)*500}>
                 <div style={{display:"flex",justify:"center",alignItems:"center"}}>
                     <img style={{marginRight:"20px"}} src={item.image} width="68px" height="68px" alt="pic"/>
                 <h1>{item.heading}</h1>
@@ -93,13 +101,16 @@ function Domain() {
     
       return (
         <div className="domain">
-            <h1>Domains</h1>
+          <h1>Domains</h1>
+          <div className="domain__lappy">
+                { renderGallery(responsive) }
+            </div>
+            <div className="domain__mobile">
+                { renderGallery(responsive_mobile) }
+            </div>
             
-            {/* {renderThumbs() } */}
-          {/* <button onClick={() => slidePrev()}>Prev button</button>
-          <button onClick={() => slideNext()}>Next button</button> */}
         
-          { renderGallery() }
+
         </div>
     )
         

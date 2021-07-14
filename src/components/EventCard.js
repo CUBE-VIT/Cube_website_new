@@ -5,12 +5,12 @@ function EventCard(props) {
         <>
         {
         props.reverse===true ?
-        <div className="card-stretch">
+        <div className="card-stretch" >
             <div className="card-deets">
                 <h1>{props.title}</h1>
                 <p>{props.desc}</p>
             </div>
-            <div className="card-img-div">
+            <div className="card-img-div" >
                 <img src={props.image} alt="event_img" className="card-img"/>
             </div>
             
@@ -20,7 +20,7 @@ function EventCard(props) {
             <div className="card-img-div">
                 <img src={props.image} alt="event_img" className="card-img"/>
             </div>
-            <div className="card-deets">
+            <div className="card-deets" >
                 <h1>{props.title}</h1>
                 <p>{props.desc}</p>
             </div>

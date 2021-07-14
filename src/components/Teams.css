@@ -1,0 +1,441 @@
+.team{
+    min-height: 100vh;
+
+}.team h1{
+    font-size: 64px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    line-height: 80px;
+    color:var(--text);
+    margin: 10px 0px;
+    padding: 30px 0px 30px 116px;
+}
+.board select{
+    height: 61px;
+    width: 207px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 24px;
+    color: #FFFFFF;
+    -webkit-appearance: none;
+  appearance: none;
+  font-size: 24px;
+}
+.board select:focus{
+    outline: none;
+}
+.board select option{
+    background: var(--backlight);
+    opacity: 0.5;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+.board{
+    position: relative;
+    display: inline-block;
+    padding: 0px 0px 10px 116px;    
+}
+.board::after {
+    content: "▼";
+    font-size: 1rem;
+    top:30%;
+    right: 24px;
+    position: absolute;
+    color: #FFFFFF;
+  }
+  .member{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 30px 116px;
+    
+  }
+  .member__top{
+      height: 800px;
+      display: flex;
+      width: 100%;
+  }
+  .member__sec{
+      height: 600px;
+      display: flex;
+      width: 100%;
+  }
+  .member__top .member1{
+    background-image: url('../images/sushant.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    width: 100%;
+    position: relative;
+  }
+  .member__top .member__side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+  }
+  .member__top .member__side .member2{
+    background-image: url('../images/sandesh.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    width: 100%;
+    position: relative;
+  }
+  .member__top .member__side .member3{
+    background-image: url('../images/shubham.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    width: 100%;
+    position: relative;
+  }
+
+  .member__sec .member4{
+      background-image: url('../images/hayat.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      flex: 1;
+      position: relative;
+  }
+  .member__sec .member5{
+    background-image: url('../images/bhuvan.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    position: relative;
+}
+
+.member__sec .member6{
+    background-image: url('../images/pranjal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    position: relative;
+}
+
+.member__sec .member7{
+    background-image: url('../images/sarvesh.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    position: relative;
+}
+.member1 .member1__info,.member2 .member2__info,.member3 .member3__info,.member4 .member4__info,.member5 .member5__info,.member6 .member6__info,.member7 .member7__info{
+   
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #FFFFFF;
+    visibility: hidden;
+   
+
+}
+
+.member1 .member1__info .desc,.member2 .member2__info .desc,.member3 .member3__info .desc,.member4 .member4__info .desc,.member5 .member5__info .desc,.member6 .member6__info .desc,.member7 .member7__info .desc{
+    color: var(--text);
+    /* font-size: 24px; */
+    left: 0;
+    /* letter-spacing: -1px; */
+    /* font-weight: 500; */
+    bottom: 0;
+    position: absolute;
+    padding: 20px;
+    font-weight: normal;
+    width: 90%;
+    
+}
+
+.member1 .member1__info .desc h1,.member2 .member2__info .desc h1,.member3 .member3__info .desc h1,.member4 .member4__info .desc h1,.member5 .member5__info .desc h1,.member6 .member6__info .desc h1,.member7 .member7__info .desc h1{
+        font-weight: 500;
+        font-size: 24px;
+        letter-spacing: -1px;
+        padding: 0px;
+        line-height: 24px;
+}
+.member1 .member1__info .desc p,.member2 .member2__info .desc p,.member3 .member3__info .desc p,.member4 .member4__info .desc p,.member5 .member5__info .desc p,.member6 .member6__info .desc p,.member7 .member7__info .desc p{
+    letter-spacing: 2px;
+}
+.member1:hover .member1__info,.member2:hover .member2__info,.member3:hover .member3__info,.member4:hover .member4__info,.member5:hover .member5__info,.member6:hover .member6__info,.member7:hover .member7__info{
+   
+    position: absolute;
+    display: inline-block;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8));
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #FFFFFF;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    visibility: visible;
+
+}
+#root > div > div.team > div.member > div.member__sec.mobile{
+    display: none;
+}
+
+.new_member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 116px;
+  
+}
+.new_member__top{
+    height: 800px;
+    display: flex;
+    width: 100%;
+}
+.new_member__sec{
+    height: 600px;
+    display: flex;
+    width: 100%;
+}
+.new_member__top .new_member1{
+  background-image: url('../images/samarth.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  width: 100%;
+  position: relative;
+}
+.new_member__top .new_member__side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+.new_member__top .new_member__side .new_member2{
+  background-image: url('../images/vj.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  width: 100%;
+  position: relative;
+}
+.new_member__top .new_member__side .new_member3{
+  background-image: url('../images/kartik.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  width: 100%;
+  position: relative;
+}
+
+.new_member__sec .new_member4{
+    background-image: url('../images/uddhav.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    position: relative;
+}
+.new_member__sec .new_member5{
+  background-image: url('../images/pranavi.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  position: relative;
+}
+
+.new_member__sec .new_member6{
+  background-image: url('../images/ishitva.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  position: relative;
+}
+
+.new_member__sec .new_member7{
+  background-image: url('../images/ankit.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  position: relative;
+}
+.new_member__sec .new_member8{
+  background-image: url('../images/bhawana.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  position: relative;
+}
+.new_member__sec .new_member9{
+  background-image: url('../images/turusha.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  position: relative;
+}
+.new_member1 .new_member1__info,.new_member2 .new_member2__info,.new_member3 .new_member3__info,.new_member4 .new_member4__info,.new_member5 .new_member5__info,.new_member6 .new_member6__info,.new_member7 .new_member7__info,.new_member8 .new_member8__info,.new_member9 .new_member9__info{
+ 
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #FFFFFF;
+  visibility: hidden;
+ 
+
+}
+
+.new_member1 .new_member1__info .desc,.new_member2 .new_member2__info .desc,.new_member3 .new_member3__info .desc,.new_member4 .new_member4__info .desc,.new_member5 .new_member5__info .desc,.new_member6 .new_member6__info .desc,.new_member7 .new_member7__info .desc,.new_member8 .new_member8__info .desc,.new_member9 .new_member9__info .desc{
+  color: var(--text);
+  /* font-size: 24px; */
+  left: 0;
+  /* letter-spacing: -1px; */
+  /* font-weight: 500; */
+  bottom: 0;
+  position: absolute;
+  padding: 20px;
+  font-weight: normal;
+  width: 90%;
+  
+}
+
+.new_member1 .new_member1__info .desc h1,.new_member2 .new_member2__info .desc h1,.new_member3 .new_member3__info .desc h1,.new_member4 .new_member4__info .desc h1,.new_member5 .new_member5__info .desc h1,.new_member6 .new_member6__info .desc h1,.new_member7 .new_member7__info .desc h1,.new_member8 .new_member8__info .desc h1,.new_member9 .new_member9__info .desc h1{
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: -1px;
+      padding: 0px;
+      line-height: 24px;
+}
+.new_member1 .new_member1__info .desc p,.new_member2 .new_member2__info .desc p,.new_member3 .new_member3__info .desc p,.new_member4 .new_member4__info .desc p,.new_member5 .new_member5__info .desc p,.new_member6 .new_member6__info .desc p,.new_member7 .new_member7__info .desc p,.new_member8 .new_member8__info .desc p,.new_member9 .new_member9__info .desc p{
+  letter-spacing: 2px;
+}
+.new_member1:hover .new_member1__info,.new_member2:hover .new_member2__info,.new_member3:hover .new_member3__info,.new_member4:hover .new_member4__info,.new_member5:hover .new_member5__info,.new_member6:hover .new_member6__info,.new_member7:hover .new_member7__info,.new_member8:hover .new_member8__info,.new_member9:hover .new_member9__info{
+ 
+  position: absolute;
+  display: inline-block;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8));
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #FFFFFF;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  visibility: visible;
+
+}
+#root > div > div.team > div.member.aos-init.aos-animate > div.new_member__sec.mobile{
+  display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .team h1{
+        padding: 10px 20px;
+        font-size: 42px;
+    }
+    .board{
+        padding: 0px 0px 10px 20px;    
+    }
+    .member{
+        padding: 30px 20px;
+    }
+     .member__top{
+      flex-direction: column;
+  }
+  .member__sec{
+      flex-direction: column;
+      height: 800px;
+  }
+  .member__top .member__side.laptop{
+      display: none;
+  }
+  #root > div > div.team > div.member > div.member__sec.mobile{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+  }
+  .member__sec.mobile .member2{
+    background-image: url('../images/sandesh.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    position: relative;
+  }
+  .member__sec.mobile .member3{
+    background-image: url('../images/shubham.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    position: relative;
+  }
+  .new_member{
+    padding: 30px 20px;
+}
+ .new_member__top{
+  flex-direction: column;
+}
+.new_member__sec{
+  flex-direction: column;
+  height: 800px;
+}
+.new_member__top .new_member__side.laptop{
+  display: none;
+}
+#root > div > div.team > div.member.aos-init.aos-animate > div.new_member__sec.mobile{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.new_member__sec.mobile .new_member2{
+background-image: url('../images/vj.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+flex: 1;
+position: relative;
+}
+.new_member__sec.mobile .new_member3{
+background-image: url('../images/kartik.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+flex: 1;
+position: relative;
+}
+#root > div > div.team > div.member.aos-init.aos-animate > div.new_member__top,#root > div > div.team > div.member.aos-init.aos-animate > div.member__top{
+    height: 400px;
+}
+  
+}
+ 
