@@ -52,7 +52,7 @@ function Teams() {
                                    <div className="member1">
                                    <div className="member1__info">
                                        <div className="desc">
-                                       <h1>Sushant Srivastava</h1>
+                                       <h1>Sushant Srivastav</h1>
                                        <p>CHAIRPERSON</p>
                                        <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
                                        <a href="https://www.linkedin.com/in/sushant4191/"><LinkedInIcon style={{color:"white"}}/></a>

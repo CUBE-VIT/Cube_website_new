@@ -38,7 +38,7 @@ function Events() {
             <EventCard image={cuone} title="Cube Unleashed 1.0" desc="Cube Unleashed 1.0 is a national level online cubing competitions consisting of 4 WCA events!" />
             <EventCard image={rco} title="Riviera Cube Open" desc="CUBE VIT comes up with another event with the rudimentary idea of official WCA puzzles, what is WCA and how the competition works, how to become a member of speed-cubing community and many more such fascinating facts about WCA in cubing community." />
             <h2>Follow us on    
-                <span className="insta"> Instagram</span>
+                <span className="insta"> <a href="https://www.instagram.com/c.u.b.e_vit/">Instagram</a></span>
             </h2>
             <br /><br /><br /><br />
         </div>
