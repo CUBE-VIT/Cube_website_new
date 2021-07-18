@@ -55,8 +55,8 @@ function Teams() {
                                        <h1>Sushant Srivastav</h1>
                                        <p>CHAIRPERSON</p>
                                        <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                       <a href="https://www.linkedin.com/in/sushant4191/"><LinkedInIcon style={{color:"white"}}/></a>
-                                           <a href="https://www.instagram.com/iamsushant.sri/"><InstagramIcon style={{color:"white"}}/></a>
+                                       <a href="https://www.linkedin.com/in/sushant4191/" target="_blank"><LinkedInIcon style={{color:"white"}}/></a>
+                                           <a href="https://www.instagram.com/iamsushant.sri/" target="_blank"><InstagramIcon style={{color:"white"}}/></a>
                                        </div>
                                        </div>
                             
@@ -69,8 +69,8 @@ function Teams() {
                                            <h1>Sandesh Dhungana</h1>
                                            <p>VICE CHAIRPERSON</p>
                                            <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                           <a href="https://www.linkedin.com/in/sandesh-dhungana-b5ba251a2/"><LinkedInIcon style={{color:"white"}}/></a>
-                                           <a href="https://www.instagram.com/dh.sandesh/"><InstagramIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://www.linkedin.com/in/sandesh-dhungana-b5ba251a2/"><LinkedInIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://www.instagram.com/dh.sandesh/"><InstagramIcon style={{color:"white"}}/></a>
                                        </div>
                                            </div>
                                        
@@ -82,8 +82,8 @@ function Teams() {
                                            <h1>Shubham Chapagain</h1>
                                            <p>GENERAL SECRETARY</p>
                                            <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                           <a href="https://www.linkedin.com/in/subhamchapagain/"><LinkedInIcon style={{color:"white"}}/></a>
-                                           <a href="https://www.instagram.com/chapagainsubham/"><InstagramIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://www.linkedin.com/in/subhamchapagain/"><LinkedInIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://www.instagram.com/chapagainsubham/"><InstagramIcon style={{color:"white"}}/></a>
                                        </div>
                                            </div>
                                       
@@ -100,8 +100,8 @@ function Teams() {
                                            <h1>Sandesh Dhungana</h1>
                                            <p>VICE CHAIRPERSON</p>
                                            <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                           <a href="https://www.linkedin.com/in/sandesh-dhungana-b5ba251a2/"><LinkedInIcon style={{color:"white"}}/></a>
-                                           <a href="https://www.instagram.com/dh.sandesh/"><InstagramIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://www.linkedin.com/in/sandesh-dhungana-b5ba251a2/"><LinkedInIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://www.instagram.com/dh.sandesh/"><InstagramIcon style={{color:"white"}}/></a>
                                        </div>
                                            </div>
                                        
@@ -113,8 +113,8 @@ function Teams() {
                                            <h1>Subham Chapagain</h1>
                                            <p>GENERAL SECRETARY</p>
                                            <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                           <a href="https://www.linkedin.com/in/subhamchapagain/"><LinkedInIcon style={{color:"white"}}/></a>
-                                           <a href="https://www.instagram.com/chapagainsubham/"><InstagramIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://www.linkedin.com/in/subhamchapagain/"><LinkedInIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://www.instagram.com/chapagainsubham/"><InstagramIcon style={{color:"white"}}/></a>
                                        </div>
                                            </div>
                                       
@@ -130,8 +130,8 @@ function Teams() {
                                            <h1>Hayat Tamboli</h1>
                                            <p>DESIGN HEAD</p>
                                            <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                           <a href="https://in.linkedin.com/in/hayat-tamboli"><LinkedInIcon style={{color:"white"}}/></a>
-                                           <a href="https://www.instagram.com/hayattamboli/"><InstagramIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://in.linkedin.com/in/hayat-tamboli"><LinkedInIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://www.instagram.com/hayattamboli/"><InstagramIcon style={{color:"white"}}/></a>
                                        </div>
                                            </div>
                                         
@@ -143,8 +143,8 @@ function Teams() {
                                            <h1>Bhuvan Molugu</h1>
                                            <p>EVENTS HEAD</p>
                                            <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                           <a href="https://www.linkedin.com/in/bhuvan-molugu-484425130/"><LinkedInIcon style={{color:"white"}}/></a>
-                                           <a href="https://www.instagram.com/bhuvan_molugu/"><InstagramIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://www.linkedin.com/in/bhuvan-molugu-484425130/"><LinkedInIcon style={{color:"white"}}/></a>
+                                           <a target="_blank" href="https://www.instagram.com/bhuvan_molugu/"><InstagramIcon style={{color:"white"}}/></a>
                                        </div>
                                            </div>
                                        
@@ -160,8 +160,8 @@ function Teams() {
                                                <h1>Pranjal Gupta</h1>
                                                <p>FINANCE HEAD</p>
                                                <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                               <a href="https://www.linkedin.com/in/pranjal-gupta-55a4b01aa/"><LinkedInIcon style={{color:"white"}}/></a>
-                                               <a href="https://www.instagram.com/pranjal_g_7/"><InstagramIcon style={{color:"white"}}/></a>
+                                               <a target="_blank" href="https://www.linkedin.com/in/pranjal-gupta-55a4b01aa/"><LinkedInIcon style={{color:"white"}}/></a>
+                                               <a target="_blank" href="https://www.instagram.com/pranjal_g_7/"><InstagramIcon style={{color:"white"}}/></a>
                                        </div>
                                                </div>
                                      
@@ -171,11 +171,11 @@ function Teams() {
                                        <div className="member7">
                                        <div className="member7__info">
                                            <div className="desc">
-                                           <h1>Sarvesh Suryanarayana</h1>
+                                           <h1>Sarvesh Suryanarayan</h1>
                                           <p>PUBLIC RELATIONS HEAD</p>
                                           <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
                                           <a><LinkedInIcon style={{color:"white"}}/></a>
-                                          <a href="https://www.instagram.com/cubeophilic.x/"><InstagramIcon style={{color:"white"}}/></a>
+                                          <a target="_blank" href="https://www.instagram.com/cubeophilic.x/"><InstagramIcon style={{color:"white"}}/></a>
                                        </div>
                                            </div>
                                         
@@ -195,8 +195,8 @@ function Teams() {
                                               <h1>Samarth Nehe</h1>
                                               <p>CHAIRPERSON</p>
                                               <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                              <a href="https://www.linkedin.com/in/samarth-nehe-a0b9b519b/"><LinkedInIcon style={{color:"white"}}/></a>
-                                                  <a href="https://www.instagram.com/sam.cuber/"><InstagramIcon style={{color:"white"}}/></a>
+                                              <a target="_blank" href="https://www.linkedin.com/in/samarth-nehe-a0b9b519b/"><LinkedInIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://www.instagram.com/sam.cuber/"><InstagramIcon style={{color:"white"}}/></a>
                                               </div>
                                               </div>
                                    
@@ -209,8 +209,8 @@ function Teams() {
                                                   <h1>V.J Karthik</h1>
                                                   <p>VICE CHAIRPERSON</p>
                                                   <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                                  <a href="https://in.linkedin.com/in/karthik-v-j-737726169"><LinkedInIcon style={{color:"white"}}/></a>
-                                                  <a href="https://www.instagram.com/v.j._karthik/"><InstagramIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://in.linkedin.com/in/karthik-v-j-737726169"><LinkedInIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://www.instagram.com/v.j._karthik/"><InstagramIcon style={{color:"white"}}/></a>
                                               </div>
                                                   </div>
                                               
@@ -222,8 +222,8 @@ function Teams() {
                                                   <h1>Kartik Chadha</h1>
                                                   <p> INTERNAL EVENTS HEAD</p>
                                                   <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                                  <a href="https://www.linkedin.com/in/kartik-chadha-278149171"><LinkedInIcon style={{color:"white"}}/></a>
-                                                  <a href="https://www.instagram.com/_kartik__chadha_/"><InstagramIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://www.linkedin.com/in/kartik-chadha-278149171"><LinkedInIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://www.instagram.com/_kartik__chadha_/"><InstagramIcon style={{color:"white"}}/></a>
                                               </div>
                                                   </div>
                                              
@@ -240,8 +240,8 @@ function Teams() {
                                                   <h1>V.J Karthik</h1>
                                                   <p>VICE CHAIRPERSON</p>
                                                   <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                                  <a href="https://in.linkedin.com/in/karthik-v-j-737726169"><LinkedInIcon style={{color:"white"}}/></a>
-                                                  <a href="https://www.instagram.com/v.j._karthik/"><InstagramIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://in.linkedin.com/in/karthik-v-j-737726169"><LinkedInIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://www.instagram.com/v.j._karthik/"><InstagramIcon style={{color:"white"}}/></a>
                                               </div>
                                                   </div>
                                               
@@ -253,8 +253,8 @@ function Teams() {
                                                   <h1>Kartik Chadha</h1>
                                                   <p> INTERNAL EVENTS HEAD</p>
                                                   <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                                  <a href="https://www.linkedin.com/in/kartik-chadha-278149171"><LinkedInIcon style={{color:"white"}}/></a>
-                                                  <a href="https://www.instagram.com/_kartik__chadha_/"><InstagramIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://www.linkedin.com/in/kartik-chadha-278149171"><LinkedInIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://www.instagram.com/_kartik__chadha_/"><InstagramIcon style={{color:"white"}}/></a>
                                               </div>
                                                   </div>
                                              
@@ -270,8 +270,8 @@ function Teams() {
                                                   <h1>Uddhav Bhardwaj</h1>
                                                   <p>DESIGN HEAD</p>
                                                   <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                                  <a href="https://www.linkedin.com/in/uddhav-bhardwaj-24855155"><LinkedInIcon style={{color:"white"}}/></a>
-                                                  <a href="https://www.instagram.com/uddhav.bhardwaj/"><InstagramIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://www.linkedin.com/in/uddhav-bhardwaj-24855155"><LinkedInIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://www.instagram.com/uddhav.bhardwaj/"><InstagramIcon style={{color:"white"}}/></a>
                                               </div>
                                                   </div>
                                                
@@ -284,8 +284,8 @@ function Teams() {
                                                   <h1>Pranavi Pendyala</h1>
                                                   <p>GENERAL SECRETARY</p>
                                                   <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                                  <a href="https://www.linkedin.com/in/pranavi-pendyala-4ab2271b7"><LinkedInIcon style={{color:"white"}}/></a>
-                                                  <a href="https://www.instagram.com/pranavi.pendyala/"><InstagramIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://www.linkedin.com/in/pranavi-pendyala-4ab2271b7"><LinkedInIcon style={{color:"white"}}/></a>
+                                                  <a target="_blank" href="https://www.instagram.com/pranavi.pendyala/"><InstagramIcon style={{color:"white"}}/></a>
                                               </div>
                                                   </div>
                                               
@@ -301,8 +301,8 @@ function Teams() {
                                                       <h1>ISHITVA VERMA</h1>
                                                       <p>EXTERNAL EVENTS HEAD</p>
                                                       <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                                      <a href="https://www.linkedin.com/in/ishitva-verma-602625200/"><LinkedInIcon style={{color:"white"}}/></a>
-                                                      <a href="https://www.instagram.com/ishitva_verma_/"><InstagramIcon style={{color:"white"}}/></a>
+                                                      <a target="_blank" href="https://www.linkedin.com/in/ishitva-verma-602625200/"><LinkedInIcon style={{color:"white"}}/></a>
+                                                      <a target="_blank" href="https://www.instagram.com/ishitva_verma_/"><InstagramIcon style={{color:"white"}}/></a>
                                               </div>
                                                       </div>
                                             
@@ -315,8 +315,8 @@ function Teams() {
                                                   <h1>ANKIT JAIN</h1>
                                                  <p>FINANCE HEAD</p>
                                                  <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                                 <a href="https://www.linkedin.com/in/ankit-jain-85920816a"><LinkedInIcon style={{color:"white"}}/></a>
-                                                 <a href="https://www.instagram.com/user.namemissing/"><InstagramIcon style={{color:"white"}}/></a>
+                                                 <a target="_blank" href="https://www.linkedin.com/in/ankit-jain-85920816a"><LinkedInIcon style={{color:"white"}}/></a>
+                                                 <a target="_blank" href="https://www.instagram.com/user.namemissing/"><InstagramIcon style={{color:"white"}}/></a>
                                               </div>
                                                   </div>
                                                
@@ -332,8 +332,8 @@ function Teams() {
                                             <h1>BHAWANA CHOUDHARY</h1>
                                             <p>MARKETING HEAD</p>
                                             <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                            <a href="https://www.linkedin.com/in/bhawana-choudhary-101213180"><LinkedInIcon style={{color:"white"}}/></a>
-                                            <a href="https://www.instagram.com/_bhaav.na_/"><InstagramIcon style={{color:"white"}}/></a>
+                                            <a target="_blank" href="https://www.linkedin.com/in/bhawana-choudhary-101213180"><LinkedInIcon style={{color:"white"}}/></a>
+                                            <a target="_blank" href="https://www.instagram.com/_bhaav.na_/"><InstagramIcon style={{color:"white"}}/></a>
                                     </div>
                                             </div>
                                   
@@ -346,8 +346,8 @@ function Teams() {
                                         <h1>TURUSHA GHIMIRE</h1>
                                        <p>PUBLIC RELATIONS HEAD</p>
                                        <div style={{display:"flex",alignItems:"center",justifyContent:"space-around",width:"20%",margin:"10px 0px 0px 0px"}}>
-                                       <a href="https://www.linkedin.com/in/turusha-ghimire-702504194"><LinkedInIcon style={{color:"white"}}/></a>
-                                       <a href="https://www.instagram.com/turu_g/"><InstagramIcon style={{color:"white"}}/></a>
+                                       <a target="_blank" href="https://www.linkedin.com/in/turusha-ghimire-702504194"><LinkedInIcon style={{color:"white"}}/></a>
+                                       <a target="_blank" href="https://www.instagram.com/turu_g/"><InstagramIcon style={{color:"white"}}/></a>
                                     </div>
                                         </div>
                                      
