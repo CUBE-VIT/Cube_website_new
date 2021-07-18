@@ -52,7 +52,7 @@ function Footer() {
             <div className="copyright">
                 <p style={{margin:"10px 0px 20px 0px",fontSize:"28px"}} >@2021 C.U.B.E VIT</p>
                 <p>Made with 💖 by <span ><a style={{color:"#FEE272"}} href="https://www.linkedin.com/in/samarth-nehe-a0b9b519b/">Samarth Nehe</a></span></p>
-                <p>Designed with 🍵 by <span ><a style={{color:"#2BCF9B"}} href="https://www.linkedin.com/in/hayat-tamboli/">Hayat Tamboli</a></span></p>
+                <p>Designed with ☕ by <span ><a style={{color:"#2BCF9B"}} href="https://www.linkedin.com/in/hayat-tamboli/">Hayat Tamboli</a></span></p>
             </div>
 
             <div className="footer__image">
